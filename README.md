@@ -28,7 +28,7 @@ git clone https://github.com/aiko1/HelloWorldTask.git
 
       /HelloWorldTask
       
-#### Далее запускаем команду:   
+#### Запускаем команду для скачивания зависимостей:   
 
 ```
 mvn clean install
@@ -44,7 +44,7 @@ mvn spring-boot:run
 
       /HelloWorldTask/src/client
       
-#### Вводим команду:   
+#### Вводим команду для установки зависимостей:   
 
 ```
 npm install
@@ -63,7 +63,7 @@ ng serve --open
 - JDBC URL должен быть jdbc:h2:mem:testdb
 
 #### Протестировать работу приложения (изменить значение "Hello world!") можно:
-##### - через консоль, выполнив запрос:
+##### - через консоль, выполнив запрос (например, на 'ASD'):
           
       update content set value='ASD' where id = 1;
           
