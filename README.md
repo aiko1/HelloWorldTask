@@ -26,7 +26,7 @@ git clone https://github.com/aiko1/HelloWorldTask.git
 
 #### Заходим в папку:
 
-      /HelloWorldTask
+      cd /HelloWorldTask
       
 #### Запускаем команду для скачивания зависимостей:   
 
@@ -42,7 +42,7 @@ mvn spring-boot:run
 
 #### Заходим в папку:
 
-      /HelloWorldTask/src/client
+      cd /HelloWorldTask/src/client
       
 #### Вводим команду для установки зависимостей:   
 
